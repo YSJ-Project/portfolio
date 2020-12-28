@@ -4,7 +4,10 @@
     /* font-weight: normal; */
 }
 @font-face{
+    font-family: 'Archivo-BoldItalic'; 
+    src: url("./font/Archivo-BoldItalic.ttf");
+}
+@font-face{
     font-family: 'Archivo-Italic'; 
     src: url("./font/Archivo-Italic.ttf");
-    /* font-weight: normal; */
 }
