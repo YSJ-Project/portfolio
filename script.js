@@ -24,3 +24,7 @@ function topMenu(){
         $('#topMenu2').css("display", "none")
     }
 }
+
+function goTop(){
+	$('html').animate({scrollTop : 0})
+}

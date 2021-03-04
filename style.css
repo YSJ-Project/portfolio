@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 * {
+    /* display: none; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -95,6 +96,8 @@
     /* padding: 0% 10%; */
     display: grid;
     width: 100%;
+    padding-bottom: 5%;
+
 }
 .div1 {
     /* background: #719bbd; */
@@ -126,7 +129,7 @@
     align-items: center;
     border:  2px solid black;
     height: 400px;
-    
+    padding: 0% 0% 0% 5%;
     width: 100%;
 
     
@@ -134,7 +137,9 @@
     word-wrap: break-word;
     white-space: pre-wrap;
 }
+.list{
 
+}
 .div2{
     height: 100vh;
     display: grid;
@@ -142,17 +147,63 @@
     grid-auto-rows: minmax(300px, auto);  */
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-column-gap: 2rem;
-	grid-row-gap: 8px;
+	grid-row-gap: 20px;
+    margin: 0px 5%;
 
+}
+.pjT{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.pjSub{
+
+}
+.pjWork{
+
+}
+.pjLan{
+    max-height: 70px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.pjMain{
+    width: 100%;
+    height: 200px;
+    border: 1px solid gray;
+
+}
+.pjLink{
+
+}
+.LinkHref{
+    color: black;
+    text-decoration: none;
 }
 .pj1, .pj2, .pj3, .pj4, .pj5, .pj6 {
     border: 1px solid black;
     /* width: 300px;
     height: 300px; */
+    padding: 5%;
+    line-height: 2;
 }
 .pj2{
 
 }
+
+.footer{
+
+    position: static;
+    bottom: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.goTop{
+    cursor: pointer;
+}
+
 /* 컴퓨터 */
 @media (max-width: 1023px) {
     .title {
@@ -168,6 +219,7 @@
         height: 200px;
         /* width: 200px; */
         width: 100%;
+    display: grid;
     }
     .img{
         width: 200px;
