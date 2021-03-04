@@ -25,6 +25,7 @@ function topMenu(){
     }
 }
 
+// 맨 위로 올리기
 function goTop(){
 	$('html').animate({scrollTop : 0})
 }

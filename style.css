@@ -164,7 +164,7 @@
 }
 .pjLan{
     max-height: 70px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     word-wrap: break-word;
     white-space: pre-wrap;
 }
